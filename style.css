@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Nata+Sans:wght@100..900&display=swap');
+
+body{
+    font-family: "nata-sans", "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: aqua;
+}
+
+.nav-container{
+    background-color: rgb(198, 194, 194);
+    color: black;
+    padding: 0 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.3rem;
+    font-weight: bold;  
+    color: rgba(232, 20, 20, 0.721);
+    display: flex;
+    align-items: center;
+    gap:0.5rem
+}
+
+.nav-links{
+    display: flex;
+    gap: 1rem;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.nav-links a{
+    color: black;
+    text-decoration: none;
+    font-weight: 500;
+}
