@@ -1,9 +1,12 @@
-let logo = document.querySelector('.logo');
+const logo = document.querySelector('.logo');
 logo.addEventListener("click", function(){
     window.location.href = "index.html";
 });
-let head = document.querySelector('.start-button');
-head.addEventListener("click", function(){
-    window.location.href = "start.html";
-})
+
+const startButtons = document.querySelectorAll('.start-button, .start');
+startButtons.forEach(button => {
+  button.addEventListener('click', () => {
+    window.location.href = 'start.html';
+  });
+});
 

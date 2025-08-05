@@ -10,13 +10,8 @@
 }
 
 body{
-    background: linear-gradient(120deg, #fff2f7, #f9f1f4, white);;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-}
+    background: linear-gradient(120deg, #fff2f7, #f9f1f4, white);
+    text-align: center;}
 
 .header-content{
     display: flex;
@@ -112,8 +107,6 @@ body{
 
 
 /* form section */
-
-/* style.css */
 .container {
     background: linear-gradient(20deg, #ffffff, #f9c3d6);
     display: flex;
@@ -126,6 +119,7 @@ body{
     box-shadow: 3px 6px 5px rgba(0,0,0,0.1);
     width: 100%;
     max-width: 900px;
+    margin: auto;
     margin-top: 6rem;
     margin-bottom: 6rem;
 }
@@ -204,7 +198,7 @@ button:hover {
     background-color: black;
     color: white;
     justify-content: space-around;
-    padding-top: 2rem;
+    padding: 1rem 0;
 }
 
 .logo-footer{

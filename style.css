@@ -482,7 +482,7 @@ body{
     background-color: black;
     color: white;
     justify-content: space-around;
-    padding-top: 2rem;
+    padding: 1rem 0;
 }
 
 .logo-footer{
