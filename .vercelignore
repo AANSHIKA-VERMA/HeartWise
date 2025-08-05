@@ -1,0 +1,17 @@
+# Ignore numpy tests and documentation
+**/numpy/tests/*
+**/numpy/doc/*
+
+# Ignore scipy tests and documentation
+**/scipy/tests/*
+**/scipy/doc/*
+
+# Ignore scikit-learn tests, documentation, and data
+**/sklearn/tests/*
+**/sklearn/docs/*
+**/sklearn/datasets/data/*
+**/sklearn/datasets/descr/*
+**/sklearn/datasets/images/*
+
+# Ignore pandas tests
+**/pandas/tests/*
