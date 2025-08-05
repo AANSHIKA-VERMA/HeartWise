@@ -8,22 +8,126 @@
     <title>HeartWise</title>
 </head>
 <body>
-    <nav>
-        <div class="nav-container">
-            <div class="logo">
-                <img src="assets/icon.png" alt="HeartWise Logo">
+    <div class="header" id="home">
+        <div class="header-content">
+            <a href="#" class="logo">
+                <img src="assets/icon.png" alt="logoImage" class="logo">
                 <span>HeartWise</span>
-            </div>
+            </a>
+            
+            <nav class="navlink">
+                <a href="#home" class="home">About</a>
+                <a href="#features" class="features">Features</a>
+                <a href="#works" class="works">How It Works</a>
+                <a href="#blog" class="blog">Blog</a>
+            </nav>
 
-            <div class="nav-links">
-                    <a href="#">About</a>
-                    <a href="#">How It Works</a>
-                    <a href="#">Testimonials</a>
-                <div class="start-btn"><a href="#">Start Assessment</a></div>
+            <a href="#start" class="start-button">Start Assessment</a>
+            <button class="menu-button">
+                <img src="assets/menu.png" alt="menuButton" class="menu-icon">
+            </button>
+        </div>
+    </div>
+
+        <div class="content">
+        <section class="main-section">
+            <div class="content-left">
+                <h1 class="section-title">Know Your Heart, Protect Your Future</h1>
+                <p class="section-desc">Get a personalized heart disease risk assessment based on your clinical attributes. Take control of your cardiovascular health with evidence-based insights.</p>
+                <div class="button-group">
+                    <a href="#start" class="start-button">Start Assessment</a>
+                    <a href="#learn" class="learn-button">Learn More &#8594;</a>
+                </div>
+            </div>
+            <div class="content right">
+                <div class="image-container">
+                    <img src="assets/heroImg.png" alt="sectionImage" class="section-image">
+               </div>
+            </div>
+        </section>
+    </div>
+
+    <div class="feature-container" id="features">
+        <div class="feature-section">
+            <h1 class="feature-title">Why Choose HeartWise?</h1>
+            <p class="feature-desc">Our advanced assessment combines multiple clinical factors to provide you with accurate, personalized insights about your heart health.</p>
+
+            <div class="feature-card">
+
+                <div class="card-body pink-grad">
+                    <img src="assets/evidence.png" alt="evidenceImage" class="card-img pink">
+                    <p class="card-title">Evidence-Based</p>
+                    <p class="card-desc"> Our assessment is built on validated clinical research and medical guidelines for accurate risk prediction.</p>
+                </div>
+
+                <div class="card-body blue-grad">
+                    <img src="assets/comprehend.png" alt="comprehensionImage" class="card-img blue" >
+                    <p class="card-title">Comprehensive</p>
+                    <p class="card-desc"> We analyze multiple factors including age, cholesterol, blood pressure, and lifestyle habits for complete assessment.</p>
+                </div>
+
+                <div class="card-body green-grad">
+                    <img src="assets/person.png" alt="personalizedImage" class="card-img green">
+                    <p class="card-title">Personalized</p>
+                    <p class="card-desc"> Receive tailored recommendations and actionable insights based on your unique health profile and risk factors.</p>
+                </div>
             </div>
         </div>
-    </nav>
+    </div>
+
+        <div class="work-container" id="works">
+        <div class="work-section">
+            <h1 class="work-title">How It Works</h1>
+            <p class="work-desc">Get your heart health assessment in three simple steps</p>
+
+            <div class="work-card">
+
+                <div class="work-card-body">
+                    <img src="assets/count1.png" alt="counter1" class="card-img pink">
+                    <p class="card-title">Evidence-Based</p>
+                    <p class="card-desc"> Our assessment is built on validated clinical research and medical guidelines for accurate risk prediction.</p>
+                </div>
+
+                <div class="work-card-body">
+                    <img src="assets/count2.png" alt="counter2" class="card-img blue" >
+                    <p class="card-title">Comprehensive</p>
+                    <p class="card-desc"> We analyze multiple factors including age, cholesterol, blood pressure, and lifestyle habits for complete assessment.</p>
+                </div>
+
+                <div class="work-card-body">
+                    <img src="assets/count3.png" alt="counter3" class="card-img green">
+                    <p class="card-title">Personalized</p>
+                    <p class="card-desc"> Receive tailored recommendations and actionable insights based on your unique health profile and risk factors.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="followUp-container">
+        <div class="followUp-section">
+            <h1>Ready to Take Control of Your Heart Health?</h1>
+            <p>Start your free assessment today and get personalized insights about your cardiovascular risk.</p>
+            <a href="#start" class="start-button">Start Your Assessment Now &#8594;</a>
+        </div>
 
     </div>
+
+    <footer>
+        <div class="footer-section">
+            <div class="logo-section">
+                <a href="#logo" class="logo-footer">
+                    <img src="assets/icon.png" alt="logoImage" class="logo-footer">
+                    <span>HeartWise</span>
+                </a>
+            </div>
+            <div class="copywrite-section">
+                <span>&copy; 2024 HeartWise. All rights reserved.</span>
+                <span>This tool is for educational purposes only and should not replace professional medical advice.</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
 </body>
 </html>
