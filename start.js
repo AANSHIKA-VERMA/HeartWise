@@ -49,8 +49,35 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 });
 
-let head = document.querySelector(".logo");
+const head = document.querySelector(".logo");
 
 head.addEventListener("click", function(){
     window.location.href = "index.html";
 })
+
+const home = document.querySelector('.home');
+home.addEventListener("click", function(){
+    window.location.href = "index.html";
+});
+
+const feature = document.querySelector('.features');
+feature.addEventListener("click", function(){
+    window.location.href = "index.html";
+});
+
+const work = document.querySelector('.works');
+work.addEventListener("click", function(){
+    window.location.href = "index.html";
+});
+
+const blog = document.querySelector('.blog');
+blog.addEventListener("click", function(){
+    window.location.href = "blog.html";
+});
+
+const hamburgerButton = document.getElementById('hamburger-btn');
+const navLinks = document.getElementById('nav-links');
+
+hamburgerButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});

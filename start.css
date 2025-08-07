@@ -58,6 +58,9 @@ body{
     .navlink{
         display: flex;
     }
+    .header-content{
+        justify-content: space-around;
+    }
 }
 
 .navlink a{
@@ -70,33 +73,35 @@ body{
     transform: scale(1.05);
 
 }
+@media screen and (max-width:760px) {
+   
+  .navlink {
+        display: none;
+        flex-direction: row; 
+        justify-content: center;
+        gap: 2rem;
+        width: 100%;
+        position: absolute; 
+        top: 2.8rem; 
+        left: 0;
+        background-color: rgb(247, 234, 241);
+        padding: 1rem 0;
+    }
 
-.start{
-    border: none;
-    display: none;
-    border-radius: 10px;
-    background: linear-gradient(90deg, #EA3323, #e52e71);;
-    color: rgb(241, 238, 238);
-    padding: 0.5rem 1rem;
-    transition: transform 0.2s;
-}
-@media screen and (min-width:760px) {
-    .start{
-        display: block;
+    .navlink.active {
+        display: flex;
     }
 }
-.start:hover{
-    background: linear-gradient(90deg, #cf3022, #780f36e8);
-    color: white;
-}
+
+
 .menu-button{
-    display: none;
+    display: flex;
     border: none;
     background-color:white;
 }
-@media screen and (max-width:760px) {
+@media screen and (min-width:761px) {
     .menu-button{
-        display: block;
+        display: none;
     }
 }
 
@@ -163,8 +168,7 @@ input, select {
     background-color: #ffffff30;
 
 }
-button {
-    width: 100%;
+.predict-button {
     padding: 15px;
     background: linear-gradient(90deg, #EA3323, #e52e71);;
     color: white;
@@ -173,7 +177,7 @@ button {
     font-size: 16px;
     cursor: pointer;
 }
-button:hover {
+.predict-button:hover {
     background: linear-gradient(90deg, #cf3022, #780f36e8);
 }
 #result {
@@ -214,5 +218,9 @@ button:hover {
     display: flex;
     flex-direction: column;
     color: rgb(218, 216, 216);
+}
+
+.footer-desc-2{
+    font-size: 0.8rem;
 }
 

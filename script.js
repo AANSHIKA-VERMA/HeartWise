@@ -10,3 +10,17 @@ startButtons.forEach(button => {
   });
 });
 
+const blog = document.querySelector('.blog');
+blog.addEventListener("click", function(){
+    window.location.href = "blog.html";
+});
+
+const hamburgerButton = document.getElementById('hamburger-btn');
+const navLinks = document.getElementById('nav-links');
+
+hamburgerButton.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+});
+
+
+
