@@ -1,11 +1,16 @@
 # 1. Import necessary libraries
 import numpy as np
 from flask import Flask, request, jsonify
+from flask_cors import CORS 
 import joblib
 
 # This initializes your backend application.
 app = Flask(__name__)
+CORS(app)
 
+@app.route('/')
+def index():
+    return "The API server is running!"
 # loads the trained model into memory when the server starts.
 try:
     model = joblib.load('heart_disease_model.joblib')

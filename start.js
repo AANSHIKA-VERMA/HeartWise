@@ -23,7 +23,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
         try {
             // sending the form data to your Flask backend's /predict endpoint
-            const response = await fetch('/predict', {
+            const response = await fetch('https://heartwise-4lcm.onrender.com/predict', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
