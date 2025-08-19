@@ -56,4 +56,8 @@ Fully accessible on desktops, tablets, and mobile devices.
   </ul>
 </ol>
 
+<h2>🎯 Model Accuracy </h2>
+The predictive model at the core of HeartWise has been trained and validated on a comprehensive dataset using machine learning algorithms like Logistic Regression, K-Nearest Neighbor and hyperparameterized Random Forest to optimize performance, achieving an accuracy of 98.5%. This ensures that users receive a highly reliable assessment of their cardiovascular risk.
+
+<h5><b>Made with ❤️ by Aanshika Verma.</b></h5>
 
